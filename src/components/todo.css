@@ -1,0 +1,46 @@
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.todo-item.completed span {
+    text-decoration: line-through;
+}
+
+.todo-item input[type="checkbox"] {
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    padding: 10px 30px;
+    font-size: 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.new-item-form {
+    margin-bottom: 30px;
+}
+
+.form-row {
+    margin-bottom: 30px;
+}
+
+.header {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
